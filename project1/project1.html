@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System</title>
+    <style>
+        table,th,tr,td{
+             border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Introduction of Operating System.</h2>
+    <p>
+        An operating system acts as an intermediary between the user of a computer and computer hardware.<br> 
+        The purpose of an operating system is to provide an environment
+         in which a user can execute programs conveniently and efficiently. 
+    </p>
+
+    <p>
+        An operating system is software that manages computer hardware. 
+        The hardware must provide<br> appropriate mechanisms to ensure the correct operation of the computer system and to prevent user <br>
+        programs from interfering with the proper operation of the system. 
+        A more common definition is that the<br> operating system is the one program running at all times on the computer (usually called the kernel),<br> 
+        with all else being application programs.
+    </p>
+
+     <p>
+        An operating system is concerned with the allocation of resources and services, 
+        such as memory,<br> processors, devices, and information. The operating system correspondingly includes 
+        programs to<br> manage these resources, such as a traffic controller, a scheduler, a <a href="https://www.geeksforgeeks.org/memory-management-in-operating-system/">memory management</a> module, 
+        I/O<br> programs, and a file system.
+    </p>
+    
+     <h2>History of Operating System</h2>
+     <p>
+        The operating system has been evolving through the years. The following table shows the history of <br>OS.
+     </p>
+
+     <table>
+          <tr>
+            <th>Generation</th>
+            <th>Year</th>
+            <th>Electronic device used</th>
+            <th>Types of OS Devices</th>
+          </tr>
+          <tr>
+            <td>First</td>
+            <td>1945-55</td>
+            <td>Vacuum Tubes</td>
+            <td>Plug Boards</td>
+          </tr>
+          <tr>
+            <td>Second</td>
+            <td>1955-65</td>
+            <td>Transistors</td>
+            <td>Batch Systems</td>
+          </tr>
+          <tr>
+            <td>Third</td>
+            <td>1965-80</td>
+            <td>Integrated Circuits(IC)</td>
+            <td>Multiprogramming</td>
+          </tr>
+          <tr>
+            <td>Fourth</td>
+            <td>Since 1980</td>
+            <td>Large Scale Integration</td>
+            <td>PC</td>
+          </tr>
+     </table>
+     <br>
+     <h2>Characteristics of Operating Systems</h2>
+     <p>Let us now discuss some of the important characteristic features of operating systems:</p>
+
+     <ul>
+        <li>
+            <p>
+                Device Management: The operating system keeps track of all the devices. So, 
+                it is also called the <br>
+                <a href = "https://www.geeksforgeeks.org/i-o-scheduling-in-operating-systems/">Input/Output controller</a> 
+                that decides which process gets the device, when, and for how much time.
+            </p>
+        </li>
+        <li>
+          <p>
+            File Management: It allocates and de-allocates the resources and also decides who gets the resource.
+          </p>
+        </li>
+        <li>
+            <p>
+                Job Accounting: It keeps track of time and resources used by various jobs or users.
+            </p>
+        </li>
+        <li>
+            <p>
+                Error-detecting Aids: These contain methods that include the production of dumps, traces, error<br> messages, 
+                and other debugging and error-detecting methods.
+            </p>
+        </li>
+        <li>
+            <p>
+                Memory Management: It keeps track of the <a href = "https://www.geeksforgeeks.org/primary-memory/">primary memory</a>, like what part of it is in use by whom,
+                 or <br> part is not in use, etc. and It also allocates the memory when a process or program requests it.
+            </p>
+        </li>
+        <li>
+            <p>
+                Processor Management: It allocates the processor to a process and then de-allocates the processor<br>
+                 when it is no longer required or the job is done.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Control on System Performance: It records the delays between the request for a service and the<br> system.
+            </p>
+        </li>
+        <li>
+            <p>
+                Security: It prevents unauthorized access to programs and data using passwords or some kind of protection technique.
+            </p>
+        </li>
+        <li>
+            <p>
+                Convenience: An OS makes a computer more convenient to use.
+            </p>
+        </li>
+        <li>
+            <p>
+                Efficiency: An OS allows the computer system resources to be used efficiently.
+            </p>
+        </li>
+        <li>
+            <p>
+                Ability to Evolve: An OS should be constructed in such a way as to permit the effective development, testing,<br> 
+                and introduction of new system functions at the same time without interfering with service.
+            </p>
+        </li>
+        <li>
+            <p>
+                Throughput: An OS should be constructed so that It can give maximum throughput (Number of tasks per unit time).
+            </p>
+        </li>
+     </ul>
+
+     <h2>Functionalities of Operating System</h2>
+
+     <ul>
+        <li>
+            <p>
+                Resource Management: When parallel accessing happens in the OS means when multiple users are<br> accessing
+                 the system the OS works as Resource Manager, 
+                 Its responsibility is to provide hardware to <br>the user. It decreases the load in the system.
+            </p>
+        </li>
+        <li>
+            <p>
+                Process Management: It includes various tasks like scheduling and termination of the process. 
+                It is done with the help of <a href = "https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/">CPU Scheduling algorithms.</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                Storage Management: The file system mechanism used for the management of the storage. 
+                <a href="https://www.geeksforgeeks.org/difference-between-nfs-and-cifs/">NIFS,</a><br>
+                <a href="https://www.geeksforgeeks.org/difference-between-nfs-and-cifs/">CIFS,</a> CFS, NFS, etc. are some file systems. 
+                All the data is stored in various tracks of Hard disks that<br> are all managed by the storage manager. 
+                It included <b>Hard Disk.</b>
+            </p>
+        </li>
+        <li>
+            <p>
+                Memory Management: Refers to the management of primary memory. 
+                The operating system has to <br> keep track of how much memory has been used and by whom. 
+                It has to decide which process needs <br> memory space and how much. 
+                OS also has to allocate and deallocate the memory space.
+            </p>
+        </li>
+        <li>
+            <p>
+                Security/Privacy Management: Privacy is also provided by the Operating system using passwords 
+                so <br> that unauthorized applications can’t access programs or data. For example, 
+                Windows uses <b>Kerberos</b><br> authentication to prevent unauthorized access to data.
+            </p>
+        </li>
+     </ul>
+
+
+     <p>The process operating system as User Interface: </p>
+     <ol>
+        <li>User</li>
+        <li>System and application programs</li>
+        <li>Operating system</li>
+        <li>Hardware</li>
+     </ol>
+     <p>
+        Every general-purpose computer consists of hardware, an operating system(s), system programs,<br> 
+        and application programs. The hardware consists of memory, CPU, ALU, I/O devices, peripheral devices, and <br>
+         storage devices. The system program consists of compilers, loaders,
+         editors, OS, etc. The application <br> program consists of business programs and database programs. 
+     </p>
+
+     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230512132248/Introduction-of-OS-660.webp" alt="conceptual view operating system">
+     <p>
+        Every computer must have an operating system to run other programs. 
+        The operating system coordinates <br> the use of the hardware among the various system programs and application programs for various users. <br>
+        It simply provides an environment within which other programs can do useful work. 
+     </p>
+      <p>
+        The operating system is a set of special programs that run on a computer system that allows it to <br>work properly.
+         It performs basic tasks such as recognizing input from the keyboard, keeping track of files and <br> directories on the disk, 
+         sending output to the display screen, and controlling peripheral devices. 
+      </p>
+      <h2>Layered Design of Operating System</h2>
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231206144203/Os.png" width = "500" alt="Layered OS">
+
+      <p>
+        The extended machine provides operations like context save, dispatching, swapping, and I/O initiation. <br> The operating system layer is located on top of the extended machine layer. 
+        This arrangement <br> considerably simplifies the coding and testing of OS modules by separating the algorithm of a function <br> from the implementation of its primitive operations.
+         It is now easier to test, debug, and modify an OS <br> module than in a monolithic OS. 
+         We say that the lower layer provides an abstraction that is the extended <br>machine. We call the operating system layer the top layer of the OS.
+      </p>
+
+      <h2>Purposes and Tasks of Operating Systems</h2>
+      <p>
+        Several tasks are performed by the Operating Systems and it also helps in serving a lot of purposes <br> which are mentioned below.
+         We will see how Operating System helps us in serving in a better way with <br> the help of the task performed by it.
+      </p>
+      <br>
+      <h3>Purposes of an Operating System</h3>
+      <ul>
+        <li>
+            <p>
+                It controls the allocation and use of the computing System’s resources among the various user and <br>tasks.
+            </p>
+        </li>
+        <li>
+            <p>
+                It provides an interface between the computer hardware and the programmer that simplifies and <br>makes it feasible for coding and debugging of application programs.
+            </p>
+        </li>
+      </ul>
+
+      <h3>Tasks of an Operating System </h3>
+      <ol>
+        <li>
+            <p>
+                Provides the facilities to create and modify programs and data files using an editor.
+            </p>
+        </li>
+        <li>
+            <p>
+                Access to the compiler for translating the user program from high-level language to machine <br>language.
+            </p>
+        </li>
+        <li>
+            <p>
+                Provide a loader program to move the compiled program code to the computer’s memory for <br>execution.
+            </p>
+        </li>
+        <li>
+            Provide routines that handle the details of I/O programming.
+        </li>
+      </ol>
+
+      <h2>I/O System Management</h2>
+      <p>
+        The module that keeps track of the status of devices is called the I/O traffic controller. 
+        Each I/O device <br> has a device handler that resides in a separate process associated with that device.<br> 
+        The I/O subsystem consists of 
+      </p>
+
+      <ul>
+        <li>
+            <p>
+                A memory Management component that includes buffering caching and spooling.
+            </p>
+        </li>
+        <li>
+            <p>
+                A general device driver interface.
+            </p>
+        </li>
+      </ul>
+
+      
+    </body>
+</html>
