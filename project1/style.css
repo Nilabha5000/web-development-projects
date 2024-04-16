@@ -1,0 +1,45 @@
+h1,h2,h3,p{
+    color : white;
+}
+
+p{
+    font-size: 17px;
+}
+table{
+    max-width: 100%;
+    color: white;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 1;
+}
+a{
+    color : green
+}
+a:hover{
+    color: orange;
+}
+th{
+    text-align: center;
+    border : 1px solid white;
+    background-color: rgb(85, 84, 84);
+    padding: 15px;
+}
+td{
+    font-size: 12.5pt;
+    text-align: center;
+    border : 1px solid white;
+    padding: 10px;
+}
+.Third_row{
+    padding: 15px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    background-color: rgba(0, 0, 0, .84);
+    line-height: 2;
+    max-width: 100%;
+}
+ol,ul{
+    color:white
+}
